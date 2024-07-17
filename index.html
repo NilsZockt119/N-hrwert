@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktsuche</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Produktsuche</h1>
+        <p>Bitte geben Sie den Barcode des Produktes ein!</p> <br>
+        <p>Beispiele: <a><i>80177173 </a>(Nutella)</i> , <i>9006900011512 (Eistee Lemon)</i>, <i> 87157215 Ketchup - Heinz</i></p>
+        <input type="text" id="product-search" placeholder="Produktname eingeben">
+        <button onclick="searchProduct()">Suche</button>
+        <div id="product-info"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
